@@ -331,7 +331,10 @@ h1 {
 
 .container .advantages .skills .skillres {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .container .advantages .skills .sk {
