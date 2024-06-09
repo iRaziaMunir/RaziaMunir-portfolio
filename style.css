@@ -14,7 +14,9 @@ html {
     scroll-behavior: smooth;
     cursor: none;
 }
-/* //////////////////////////////////////// */
+/* ///////////////////// My Projects custom style/////////////////// */
+
+
 /* .myProjects{
     font-size:10vh;
     text-align: center;
@@ -73,7 +75,7 @@ html {
 }
 
 .imageContainer div {
-    flex: 1 1 calc(33.333% - 10px); /* Adjust width to fit three items in a row */
+    flex: 1 1 calc(25% - 10px); /* Adjust width to fit three items in a row */
     box-sizing: border-box;
     margin: 5px;
 }
@@ -182,6 +184,9 @@ h1 {
 
 .email {
     color: #ffffff88;
+}
+.phone {
+    color: #fff;
 }
 
 .worktxt {
