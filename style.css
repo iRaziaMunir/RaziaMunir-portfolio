@@ -58,13 +58,16 @@ html {
     padding: 100px;
 }
 
-.imageContainer p,
+.imageContainer p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
 .imageContainer h5 {
     font-size: 20px;
     text-align: center;
-    padding: 40px 0 20px 0;
+    padding: 10px 0 20px 0;
 }
-
 .imageContainer {
     width: 100%;
     display: flex;
@@ -82,10 +85,10 @@ html {
 
 .imageContainer img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 5%;
     transition: transform 0.3s ease; /* Smooth transition */
-    aspect-ratio: 1.0;
+    aspect-ratio: 5/3;
 }
 
 .imageContainer img:hover {
@@ -556,7 +559,7 @@ h1 {
 }
 
 .content p {
-    font-size: 30px;
+    font-size: 22px;
     font-family: cookie;
     color: #fff;
     margin-top: -20px;
@@ -581,7 +584,7 @@ h1 {
 .dots {
     width: 12px;
     height: 12px;
-    margin: 15px 10px;
+    margin: 20px 10px;
     z-index: 10;
     outline: 10px solid white;
     outline-offset: -6px;
@@ -589,6 +592,7 @@ h1 {
     appearance: none;
     backface-visibility: hidden;
     border-radius: 50%;
+    transition: all 0.3s ease-in-out;
 }
 
 .dots:checked:nth-of-type(1)~.mainSlider {
@@ -1219,7 +1223,15 @@ h1 {
         left: -220px; */
         color: red;
     }
-
+    .container .about .about-2 h1 {
+        font-size: 14px;
+        font-weight:bold;
+        margin-right: 8px;
+    }
+    .container .about .about-2 p {
+        font-size: 12px;
+        margin-right: 8px;
+    }
     .social h5 {
         font-size: 14px;
         padding-top: 0px;
