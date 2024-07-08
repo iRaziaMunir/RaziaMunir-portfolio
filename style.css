@@ -322,11 +322,10 @@ h1 {
 .container .advantages img {
     width: 200px;
     height: 200px;
-    filter: grayscale(100%);
 }
 
 .container .advantages img:hover {
-    filter: grayscale(0);
+
     cursor: pointer;
 }
 
