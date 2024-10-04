@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
+    /* cursor: white; */
 }
 
 /* google font cdn------ */
@@ -12,8 +13,15 @@
 /* google font cdn End------ */
 html {
     scroll-behavior: smooth;
-    cursor: none;
+    cursor: auto;
 }
+.resume{
+    color: yellow;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 2px solid yellow;
+}
+  
 /* ///////////////////// My Projects custom style/////////////////// */
 
 
@@ -123,15 +131,15 @@ html {
 }
 
 .dot {
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
     background-color: white;
     clip-path: polygon(44% 50%, 51% 80%, 73% 63%);
 }
 
 .outline {
-    width: 55px;
-    height: 55px;
+    width: 30px;
+    height: 30px;
     background-color: white;
     transition: .2s linear;
 
